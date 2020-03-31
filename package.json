@@ -1,0 +1,30 @@
+{
+  "name": "queue-js",
+  "version": "0.1.0",
+  "description": "Efficient queue implementations in JavaScript with familiar Array interface",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "eslint .",
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sanori/queue-js.git"
+  },
+  "keywords": [
+    "Array",
+    "queue",
+    "algorithm"
+  ],
+  "author": "Joo-Won Jung <sanori@sanori.net>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/sanori/queue-js/issues"
+  },
+  "homepage": "https://github.com/sanori/queue-js#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^6.8.0",
+    "mocha": "^7.1.1"
+  }
+}
