@@ -11,10 +11,9 @@ Q.prototype = {
   },
   shift() {
     if (this._stack2.length === 0) {
-      while (this._stack1.length > 0) {
-        const item = this._stack1.pop();
-        this._stack2.push(item);
-      }
+      const tmp = this._stack2;
+      this._stack2 = this._stack1.reverse();
+      this._stack1 = tmp;
     }
     return this._stack2.pop();
   },

@@ -1,6 +1,6 @@
 {
   "name": "queue-js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Efficient queue implementations in JavaScript with familiar Array interface",
   "main": "index.js",
   "scripts": {
