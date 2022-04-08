@@ -1,6 +1,6 @@
 {
   "name": "queue-js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Efficient queue implementations in JavaScript with familiar Array interface",
   "main": "index.js",
   "scripts": {
@@ -23,8 +23,8 @@
   },
   "homepage": "https://github.com/sanori/queue-js#readme",
   "devDependencies": {
-    "chai": "^4.3.4",
-    "eslint": "^7.23.0",
-    "mocha": "^8.3.2"
+    "chai": "^4.3.6",
+    "eslint": "^8.12.0",
+    "mocha": "^9.2.2"
   }
 }
